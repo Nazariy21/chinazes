@@ -1,0 +1,595 @@
+:root{
+
+    --font-main: "Montserrat", sans-serif;;
+    --font-second: "Roboto", sans-serif;;
+
+
+    --dg-color-dark: #16151B;
+    --dg-color-netral: #302633;
+    --dg-color-light: #ffffff;
+    --dg-color-main: #1C1C27;
+    
+    --text-color-light: #ffffff;
+    --text-color-dark: #FF7AE6;
+    --text-color: #5E304D;
+    --text-color-allocation: #D064A3;
+    --text-gradient: linear-gradient(to right, #68C9FF , #D45B9F)
+}
+
+body{
+    font-family: var(--font-main);
+    font-size: 22.4px;
+    color: var(--text-color-light);
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 42px;
+}
+h4{
+    font-size: 37px;
+}
+h5{
+    font-size: 31px;
+}
+h6{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--text-color-light);
+}
+.pink{
+    color: var(--text-color-allocation);
+}
+.content{
+    width: 390px;
+    margin: 0 auto;
+    background-color: var(--dg-color-dark);
+    display: block;
+}
+.padding-40px{
+    padding: 20px;
+}
+.flex-box-colum{
+    display: flex;
+    flex-direction: column;
+}
+.flex-box-row{
+    display: flex;
+}
+.title-box-mobile{
+    display: flex;
+    flex-direction: column;
+}
+.customers-title{
+    display: flex;
+    
+}
+.big{
+    display: none;
+}
+
+.menu-top{
+    width: 100%;
+}
+.menu-box-mobile{
+    padding: 6.16px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-box-mobile img{
+    width: 187.19px;
+    height: 2.012rem;
+}
+.line{
+    width: 21.07px;
+    background-color: var(--text-color-light);
+    padding: 1.4px;
+    margin: 1.4px;
+    border-radius: 5px;
+}
+.menu-box{
+    display: none;
+}
+/* + top-video + */
+.top-video{
+    width: 100%;
+    height: 15.625rem;
+}
+.top-video img{
+    width: 100%;
+    height: 15.625rem;
+}
+.button-tow{
+    padding: 12px 30px;
+    background-color: var(--dg-color-button);
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    float: left;
+    box-shadow: 0px 0px 20px 6px #4B2A4E;
+}
+/* - top-video - */
+
+/* + we-are-neobrands + */
+.we-are-neobrands{
+    padding: 40px 0 40px 0;
+    gap: 20px;
+}
+.we-are-neobrands-box{
+    align-items: center;
+}
+.we-are-neobrands p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 200;
+    font-style: italic;
+}
+.we-are-neobrands-text-box h2{
+    float: left;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 900;
+    font-style: italic;
+    background: var(--text-gradient);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+.button-tow{
+    padding: 12px 30px;
+    background-color: var(--dg-color-button);
+    border-radius: 18px;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    float: left;
+    box-shadow: 0px 0px 20px 6px #4B2A4E;
+}
+/* - we-are-neobrands - */
+
+/* + what we do? + */
+.what-we-do{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+}
+.what-we-do-box{
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.what-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding-block: 27px;
+}
+.what-text h4{
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.what-text p{
+    font-size: 14px;
+    line-height: 24.4px;
+    font-weight: 300;
+}
+.group{
+    padding-block: 18px;
+}
+.group img{
+    height: 15.35rem;
+}
+/* - what we do? - */
+
+/* + customers + */
+.customers-box{
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.customers-img{
+    width: 100%;
+    height: 20.472rem;
+    background-image: url(/aDV_HTML/1-laba-NeoBlrends/img/Untitlebgbd-2-768x645.png.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.customers{
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--dg-color-netral);
+}
+.customers-title{
+
+    flex-direction: column;
+}
+.customers-title div h4{
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.customers p{
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.prtner-box{
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.shopify{
+    width: 5.342rem;
+    height: 1.519rem;
+}
+.click-funnels{
+    width: 6.536rem;
+    height: 1.166rem;
+}
+.amazon{
+    width: 2.899rem;
+    height: 0.876rem;
+}
+/* - customers - */
+/* + main + */
+main{
+    width: 100%;
+    background-color: var(--dg-color-main);
+}
+/* - main - */
+/* + Examples For Brands + */
+.examples{
+    align-items: center;
+    gap: 100px;
+    padding: 10px 20px 50px;
+}
+.examples-text{
+    padding: 30.57px 8.59px 0.58px;
+    text-align: center;
+}
+.examples-text p{
+    font-size: 26px;
+    line-height: 31.2px;
+    font-weight: 700;
+}
+.examples-text .pink{
+    font-weight: 200;
+}
+.brands-conteiner{
+    width: 70%;
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    list-style-type: none;
+}
+.brands-conteiner-item{
+    text-align: center;
+    height: 60px;
+    padding: 40px 0 40px;
+}
+.brands-conteiner-item.bottom{
+    text-align: center;
+    height: 60px;
+    padding: 60px 0 20px;
+}
+.top{
+    border-bottom: 1px solid var(--text-color-allocation);
+}
+.center{
+    border-left: 1px solid var(--text-color-allocation);
+    border-right: 1px solid var(--text-color-allocation);
+}
+/* - Examples For Brands - */
+
+/* + feedback + */
+.feedback{
+    padding: 20px;
+    background-image: url(/aDV_HTML/1-laba-NeoBlrends/img/Feedback.png);
+    background-size: 100% 25%;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+}
+.text-dox{
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+.text-dox p{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-block: 20px;
+}
+.text-dox h3{
+    width: 320px;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 50.4px;
+}
+
+.post{
+    background-color: var(--dg-color-netral);
+    padding: 48px 25px 0;
+}
+.post-box{
+    padding: 20px 20px 30px 20px;
+}
+.post-text-box{
+    padding-bottom: 66px;
+    gap: 8px;
+}
+
+.post-title p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    padding-top: 6px;
+}
+.post-title.big{
+    
+}
+.post-desc p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: italic;
+    color: var(--text-color-allocation);
+}
+.star-box{
+    padding: 6px 0 12px 0;
+    font-size: 12px;
+}
+.star-box i{
+    padding-right: 5px;
+}
+.active-star{
+    color: #FFC300;
+}
+.post-desc img{
+    width: 5rem;
+    height: 1.154rem;
+}
+.box-tab{
+    display: flex;
+    gap: 12px;
+}
+.botton-go-to{
+    padding: 5px;
+    border-radius: 10px;
+    border: 0;
+}
+.active-botton{
+    background-color: var(--text-color-allocation);
+}
+/* + feedback + */
+
+/* + World Cap + */
+.world-cap{
+    width: 100%;
+    background-image: url(/aDV_HTML/1-laba-NeoBlrends/img/World-1992_1.mp4.png);
+    background-position: 127% 0%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 105.39px 0 105.41px 0;
+    align-items: center;
+}
+.world-cap-box{
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+.world-cap img{
+    margin: 10px;
+    width: 23.125rem;
+    height: 11.25rem;
+    box-shadow: 1px 0px 40px #584156,
+                0px 1px 40px #584156;
+}
+.world-cap .text{
+    margin: 0;
+    width: 20.25rem;
+    height: 6.688rem;
+    box-shadow: none;
+}
+/* - World Cap - */
+
+/* + Meet + */
+.meet{
+    padding: 10px;
+}
+.meet-dox{
+    padding: 43.69px 42.72px 0.69px 42.7px;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44.4px;
+}
+/* - Meet - */
+/* + Team + */
+.team{
+    padding-left: 20px;
+}
+.team-box{
+    display: flex;
+    gap: 20px;
+    overflow-x: clip;
+}
+.person-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-top: 26px;
+}
+.img-box{
+    padding-bottom: 36px;
+}
+.img-box img{
+    width: 218px;
+    height: 218px;
+}
+.text-box{
+    text-align: center;
+}
+.person-name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.text-box .pink{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: italic;
+}
+
+/* - Team - */
+/* + In Touch + */
+.in-touch{
+    width: 100%;
+    background-image: url(/aDV_HTML/1-laba-NeoBlrends/img/Section-mini.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.touch-tex-box{
+    margin-right: 78px;
+    padding: 29px 20px 0;
+}
+.touch-tex-box h4{
+    font-size: 37;
+    font-weight: 700;
+    line-height: 44.4px;
+    padding-bottom: 25px;
+}
+.touch-tex-box p{
+    font-size: 16;
+    font-weight: 200;
+    line-height: 22.4px;
+    padding-bottom: 16px;
+}
+.data-box{
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 30px 15px;
+    gap: 30px;
+}
+.data-box input{
+    margin: 0 5px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: var(--text-color-dark);
+    border: 1px solid var(--text-color);
+}
+input::placeholder{
+    color: var(--dg-color-light);
+}
+.input-data{
+    padding: 19px 31px;
+}
+.input-message{
+    padding: 19px 31px 40px 31px;
+}
+.data-box button{
+    width: 100%;
+    max-width: 108px;
+    border-radius: 40px;
+    margin-left: 5px;
+    padding: 13.8px 33px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid var(--text-color);
+    color: var(--text-color-light);
+}
+/* - In Touch - */
+
+/* + Footer + */
+.footer-box{
+    display: grid;
+    padding: 70px 12px;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+}
+.footer-box img{
+    margin: 0 auto;
+}
+.name-section{
+    text-align: center;
+    padding-block: 10px 25px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+}
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-section a{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--text-color-light);
+    text-decoration: none;
+}
+.element-box{
+    display: flex;
+    align-items: center;
+}
+.element-box i{
+    padding: 6px 6px 6px 10px;
+    font-size: 12px;
+
+}
+.element-box p{
+    width: 92px;
+    padding: 10px 0 10px 10px;
+    font-size: 10px;
+    line-height: 18px;
+    font-weight: 400;
+}
+.mes-box{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+.fa-brands{
+    width: 30.8px;
+    height: 30.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15.4px;
+    color: var(--dg-color-main);
+    background-color: var(--dg-color-light);
+}
+/* - Footer - */
+
